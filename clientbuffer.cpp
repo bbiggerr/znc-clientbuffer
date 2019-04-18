@@ -30,7 +30,7 @@
 #endif
 
 #if (VERSION_MAJOR > 1) || (VERSION_MAJOR == 1 && VERSION_MINOR >= 7)
-#define ZNC17 2
+#define ZNC17 VERSION_MINOR
 #else
 #define ZNC17 0
 #endif
